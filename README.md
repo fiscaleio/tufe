@@ -25,20 +25,24 @@ git clone https://github.com/fiscaleio/tufe
 ### 2. Setup Environment and Download Libraries
 
 Run the following command to execute the setup script:
-
-python setup.py
+    
+    python setup.py
 
 This will:
+- Create a virtual environment (env) if one doesn't exist.
+- Automatically install the required dependencies for either Windows or Linux
 
-    Create a virtual environment (env) if one doesn't exist.
-    Automatically install the required dependencies for either Windows or Linux from requirements.txt.
-    Set up the environment for your project.
+### 3. Build Executable
 
-### 3. Launch the Application
+If you want to compile an executable for windows run :
+
+    python setup.py build
+   
+### 4. Launch the Application
 
 After the setup, run the main.py script to start the project:
 
-python main.py
+    python main.py
 
 Select a strong password, specify a directory, and press enter tufe will efficiently handle the operation for you.
 
